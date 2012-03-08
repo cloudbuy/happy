@@ -1,0 +1,7 @@
+The eventual plan for hapi is to become a complete configuration/proc mangement layer ontop of HAProxy to allow for simple progmatic configuration from a central location.
+
+Here is the rough outline of the plan:
+
+1. Complete support for the interface exposed via the stats socket
+2. Allow for graceful restarting of the service
+3. Adding/Removing configuration of backends/frontends and servers
