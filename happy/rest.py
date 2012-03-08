@@ -1,5 +1,5 @@
 #
-# hapi/rest.py
+# happy/rest.py
 #
 # Authors:
 #   2012 Damien Churchill <damien.churchill@ukplc.net>

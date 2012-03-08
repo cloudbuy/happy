@@ -1,5 +1,5 @@
 #
-# hapi/config.py
+# happy/config.py
 #
 # Authors:
 #   2012 Damien Churchill <damien.churchill@ukplc.net>

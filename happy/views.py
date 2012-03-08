@@ -1,5 +1,5 @@
 #
-# hapi/views.py
+# happy/views.py
 #
 # Authors:
 #   2012 Damien Churchill <damien.churchill@ukplc.net>
@@ -24,9 +24,9 @@
 #   Boston, MA    02110-1301, USA.
 #
 
-from hapi.config import Config
-from hapi.haproxy import HAProxy
-from hapi.rest import get, post, put
+from happy.config import Config
+from happy.haproxy import HAProxy
+from happy.rest import get, post, put
 
 haproxy = HAProxy('/run/haproxy.sock')
 

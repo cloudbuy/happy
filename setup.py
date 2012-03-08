@@ -8,9 +8,9 @@ CHANGES = open(os.path.join(here, 'CHANGES.txt')).read()
 
 requires = ['gevent', 'bottle']
 
-setup(name='hapi',
+setup(name='happy',
       version='0.1',
-      description='hapi',
+      description='HAProxy RESTful API',
       long_description=README + '\n\n' +  CHANGES,
       author='Damien Churchill',
       author_email='damien.churchill@ukplc.net',
@@ -21,11 +21,10 @@ setup(name='hapi',
       zip_safe=False,
       install_requires=requires,
       tests_require=requires,
-      test_suite="hapi",
+      test_suite="happy",
       entry_points = """\
       [console_scripts]
-      hapid = hapi:main
-      """,
-      paster_plugins=['pyramid'],
+      happyd = happy:main
+      """
       )
 

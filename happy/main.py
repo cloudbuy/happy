@@ -1,5 +1,5 @@
 #
-# hapi/main.py
+# happy/main.py
 #
 # Authors:
 #   2012 Damien Churchill <damien.churchill@ukplc.net>
@@ -25,9 +25,9 @@
 #
 
 from argparse import ArgumentParser
-from hapi.rest import WebServer
+from happy.rest import WebServer
 
-import hapi.views
+import happy.views
 
 def main():
     server = WebServer(9876, True, True)
