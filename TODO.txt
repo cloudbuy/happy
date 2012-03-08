@@ -1,4 +1,4 @@
-The eventual plan for hapi is to become a complete configuration/proc mangement layer ontop of HAProxy to allow for simple progmatic configuration from a central location.
+The eventual plan for happy is to become a complete configuration/proc mangement layer ontop of HAProxy to allow for simple progmatic configuration from a central location.
 
 Here is the rough outline of the plan:
 
